@@ -43,7 +43,7 @@ def save():
     data_entry = f'"{date}","{product}","{review}","{sentiment}"\n'
 
     # open the file in the 'append' mode
-    with open("./static/assets/datafiles/updated_product_dataset.csv","a")as f:
+    with open("./static/assets/datafiles/data_entry.csv","a")as f:
         
     # Log the data in the file
         f.write(data_entry)
